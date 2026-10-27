@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<meta name="ad.size" content="width=300,height=600">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=300,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Guardforce AI Co., Limited — Investor Relations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--
+  Guardforce AI Co., Limited — IR display banner, 300x600 — Concept D: Corporate site / brand-native.
+  Promotes: https://media-console-group.github.io/guardforceai-ir-concept/
+  Styled from the company's own CORPORATE website (https://www.guardforceai.com/), not the IR concept page that
+  Concepts A-C are built from: its dark #2c2c3f header with the orange GFAI lockup, Poppins, the dark-to-lavender
+  hero with the dotted orb, the lavender page ground, white cards with faint numerals, orange underline bars,
+  and the plum "Investor Relations" pill. "Homepage in miniature": each slide is one module of that homepage:
+    1 hero -> 2 stats (the site has none; built from the nearest module with the shared .d-stat parts)
+    -> 3 "The Engine Powering Our AI Ecosystem" cards -> 4 plum band (the site's IR / footer plum).
+  Written by .tmp/gen_d.py. Photos: only the site's own hero orb (assets/orb.webp); the logo is the site's own file.
+  Every claim comes from .tmp/facts.md (the IR page's filed figures), never from the homepage's marketing copy.
+-->
+
+<div id="banner" aria-label="Guardforce AI Co., Limited investor relations advertisement">
+
+  <div id="slides">
+
+    <!-- Slide 1 — Overview -->
+    <section class="slide m-hero" data-index="0">
+      <!-- Module: corporate homepage hero (.gfai-home-hero): dark top fading to lavender, the dotted orb,
+           white Poppins title, grey tagline pill. Facts: [20-F] GF Cash (CIT) incorporated 1982; FY2025 revenue $35.2M. -->
+      <img class="orb" src="assets/orb.webp" alt="" width="250" height="192">
+      <div class="hero-copy">
+        <h2>Cash logistics since 1982. Now adding AI and robotics.</h2>
+        <p class="hero-pill">Building the AI ecosystem for the real world.</p>
+        <p class="hero-desc">Guardforce AI moves and counts cash for banks and retailers, mostly in Thailand, and is building AI agents and robots on top.</p>
+      </div>
+      <div class="d-stats">
+        <div class="d-stat">
+          <p class="d-value">1982</p>
+          <p class="d-label">Cash-in-transit founded in Thailand</p>
+        </div>
+        <div class="d-stat">
+          <p class="d-value">$35.2M</p>
+          <p class="d-label">2025 revenue, continuing operations</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2 — Revenue -->
+    <section class="slide m-stats" data-index="1">
+      <!-- Module: the homepage's section heading + body over the lavender page, with the stat parts (heading-font
+           values over orange bars). Facts: [6-K Sep 23, 2026] H1 2026 revenue $18,270,590 vs $17,168,005 restated (+6.4%);
+           AI&Robotics segment $241,727 (1.3%) so Secured Logistics 98.7%; net loss $3,127,646 vs $2,227,122. -->
+      <div class="stats-head">
+        <h2>Revenue, six months to Jun&nbsp;30,&nbsp;2026</h2>
+        <p>Unaudited, as restated, from the company&rsquo;s interim results.</p>
+      </div>
+      <div class="d-stats">
+        <div class="d-stat">
+          <p class="d-value">$18.3M</p>
+          <p class="d-label">Revenue, up 6.4% from $17.2M a year earlier</p>
+        </div>
+        <div class="d-stat">
+          <p class="d-value">98.7%</p>
+          <p class="d-label">Of H1 revenue came from the Secured Logistics segment</p>
+        </div>
+        <div class="d-stat">
+          <p class="d-value">$3.1M</p>
+          <p class="d-label">Net loss, against $2.2M a year earlier</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 3 — Platform -->
+    <section class="slide m-layers" data-index="2">
+      <!-- Module: "The Engine Powering Our AI Ecosystem" (.gfai-home-engine): three white cards with faint numerals
+           and tinted icon tiles. Names are the company's own; the stats under them are the filed 2025 segment figures.
+           Facts: [20-F] Smart Cash Solution $4,441,192 (+13.9% from $3,899,564); AI&Robotics segment $282,687 (0.8%). -->
+      <div class="layers-head">
+        <h2>The engine behind the AI ecosystem</h2>
+        <p>Three layers, as the company describes them.</p>
+      </div>
+      <ol class="layers">
+        <li class="layer"><span class="layer-no">01</span><span class="layer-ico i1"></span><div><h3>AI Infrastructure</h3><p>Intelligent Cloud Platform (ICP)</p></div></li>
+        <li class="layer"><span class="layer-no">02</span><span class="layer-ico i2"></span><div><h3>Multi-Agent System</h3><p>Industry-specialized AI agents</p></div></li>
+        <li class="layer"><span class="layer-no">03</span><span class="layer-ico i3"></span><div><h3>AI + RaaS Ecosystem</h3><p>Robotics as a Service</p></div></li>
+      </ol>
+      <div class="d-stats row">
+        <div class="d-stat">
+          <p class="d-value">$4.4M</p>
+          <p class="d-label">Smart Cash Solution, 2025 (+13.9%)</p>
+        </div>
+        <div class="d-stat">
+          <p class="d-value">$0.28M</p>
+          <p class="d-label">AI &amp; Robotics segment, 2025 (0.8% of revenue)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 4 — Cash, losses, listing -->
+    <section class="slide m-band" data-index="3">
+      <!-- Module: the site's plum band (the IR hero / footer plum #412671-#52408e): centred white title and copy.
+           Facts: [6-K Sep 23, 2026] cash and equivalents $21,250,627 at Jun 30, 2026; H1 net loss $3,127,646;
+           [6-K Jun 12, 2026] Nasdaq second 180 days to Dec 7, 2026; [6-K proxy Oct 2, 2026] 1-for-40 consolidation proposed. -->
+      <img class="orb band-orb" src="assets/orb.webp" alt="" width="250" height="192">
+      <div class="band-content">
+        <h2>Cash, losses and a Nasdaq deadline</h2>
+        <div class="d-stats">
+          <div class="d-stat">
+            <p class="d-value">$21.3M</p>
+            <p class="d-label">Cash, Jun&nbsp;30, 2026</p>
+          </div>
+          <div class="d-stat">
+            <p class="d-value">$3.1M</p>
+            <p class="d-label">H1 2026 net loss</p>
+          </div>
+          <div class="d-stat">
+            <p class="d-value">Dec 7</p>
+            <p class="d-label">Nasdaq bid-price deadline</p>
+          </div>
+        </div>
+        <p class="band-note">Delisting is possible if the $1.00 minimum bid is not regained. A 1-for-40 share consolidation is proposed; its outcome is not reflected here.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Persistent chrome — the corporate site's header, never rotates -->
+  <header id="top-bar" class="reveal" data-delay="0">
+    <img id="logo" src="assets/logo.png" alt="Guardforce AI" width="75" height="22">
+    <span id="ticker">NASDAQ:&nbsp;GFAI</span>
+  </header>
+
+  <!-- Slider controls: round buttons -->
+  <button type="button" class="nav-arrow" id="arrow-prev" aria-label="Previous slide">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 6 8l4 5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button type="button" class="nav-arrow" id="arrow-next" aria-label="Next slide">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l4 5-4 5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div id="bottom-fixed" class="reveal" data-delay="4">
+    <div id="dots" role="tablist" aria-label="Slide selector">
+      <button class="dot active" data-index="0" aria-label="Slide 1: Overview"></button>
+      <button class="dot" data-index="1" aria-label="Slide 2: Revenue"></button>
+      <button class="dot" data-index="2" aria-label="Slide 3: The three layers"></button>
+      <button class="dot" data-index="3" aria-label="Slide 4: Cash, losses and listing"></button>
+    </div>
+
+    <!-- The corporate site's "Investor Relations" pill: plum fill, white Poppins 600, arrow after the label -->
+    <a href="#" id="cta">
+      <span>Investor Relations</span>
+      <svg id="cta-arrow" viewBox="0 0 24 25" aria-hidden="true"><path d="M12 4.18066L10.585 5.59566L16.17 11.1807H4V13.1807H16.17L10.585 18.7657L12 20.1807L20 12.1807L12 4.18066Z"/></svg>
+    </a>
+
+    <!-- The corporate site's dark footer strip, carrying the required forward-looking-statements line -->
+    <p id="fls">20-F (Apr 21, 2026), 6-K (Sep 23, 2026); H1 2026 unaudited. Forward-looking statements include Nasdaq bid-price compliance and possible delisting; a proposed 1-for-40 share consolidation and dual-class shares (outcome not reflected); losses (a 20-F risk factor says they may raise going-concern doubt), financing needs and dilution from share sales; reliance on 3 customers (58.2% of 2025 revenue) and Thailand (99.6%). Not an offer to sell securities.</p>
+  </div>
+
+  <!-- Standard HTML5-ad click-tag plumbing -->
+  <div id="click-tag-wrapper"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
